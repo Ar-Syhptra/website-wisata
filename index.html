@@ -76,7 +76,6 @@
       </div>
     </div>
     
-    <!-- Mobile menu, hidden by default -->
     <div id="mobile-menu" class="hidden md:hidden bg-white px-4 pt-2 pb-4">
       <nav class="space-y-2">
         <a href="#tiket" class="block py-2 text-gray-900 font-medium hover:bg-gray-50 rounded px-2">Tiket & Promo</a>
@@ -88,12 +87,45 @@
   </header>
 
   <!-- Hero Section -->
-  <section class="bg-cover bg-center h-screen" style="background-image: url('background-wisata.jpeg');">
-    <div class="bg-black bg-opacity-60 h-full flex flex-col justify-center items-center text-center text-white px-4">
-      <h1 class="text-4xl md:text-6xl font-bold mb-4">Selamat Datang di Wisata Bekasi</h1>
-      <p class="text-lg md:text-2xl mb-6">Jelajahi destinasi seru & ramah keluarga di Bekasi!</p>
-      <a href="#" class="bg-yellow-400 text-black px-6 py-3 rounded-full font-semibold hover:bg-yellow-300 transition">Lihat
-        Tiket & Promo</a>
+  <section class="relative bg-cover bg-center" style="background-image: url('background-wisata.jpeg');">
+    <div class="h-[500px] md:h-[600px] lg:h-[700px] w-full">
+      <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-center text-white px-4 py-12">
+        <div class="max-w-4xl mx-auto">
+          <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Selamat Datang di Wisata Bekasi</h1>
+          <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 max-w-2xl mx-auto">Jelajahi destinasi seru & ramah keluarga di Bekasi!</p>
+          <a href="register.html" class="inline-block bg-yellow-400 text-black px-6 py-3 rounded-full font-semibold hover:bg-yellow-300 transition text-sm sm:text-base">Pesan Tiket Sekarang!</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 px-6 md:px-20">
+    <h2 class="text-3xl font-bold text-center mb-10">Team Kami</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-8">
+      <div class="bg-white shadow-lg p-6 rounded-lg">
+        <div class="h-80 sm:h-96 md:h-80 lg:h-96 w-full mb-4 overflow-hidden rounded-lg">
+          <img src="arkan.jpeg" alt="Arkan" class="w-full h-full object-cover">
+        </div>
+        <h3 class="text-xl font-bold">Arkan</h3>
+      </div>
+      <div class="bg-white shadow-lg p-6 rounded-lg">
+        <div class="h-80 sm:h-96 md:h-80 lg:h-96 w-full mb-4 overflow-hidden rounded-lg">
+          <img src="adrian.jpeg" alt="Adrian" class="w-full h-full object-cover">
+        </div>
+        <h3 class="text-xl font-bold">Adrian</h3>
+      </div>
+      <div class="bg-white shadow-lg p-6 rounded-lg">
+        <div class="h-80 sm:h-96 md:h-80 lg:h-96 w-full mb-4 overflow-hidden rounded-lg">
+          <img src="jibril.jpeg" alt="Jibril" class="w-full h-full object-cover">
+        </div>
+        <h3 class="text-xl font-bold">Jibril</h3>
+      </div>
+      <div class="bg-white shadow-lg p-6 rounded-lg">
+        <div class="h-80 sm:h-96 md:h-80 lg:h-96 w-full mb-4 overflow-hidden rounded-lg">
+          <img src="rezki.jpeg" alt="Rezki" class="w-full h-full object-cover">
+        </div>
+        <h3 class="text-xl font-bold">Rezki</h3>
+      </div>
     </div>
   </section>
 
